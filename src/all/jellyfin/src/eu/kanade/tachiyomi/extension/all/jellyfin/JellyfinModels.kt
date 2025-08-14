@@ -30,3 +30,10 @@ data class JellyfinUser(
     val Id: String,
     val Name: String,
 )
+
+@Serializable
+data class JellyfinAttachment(
+    val Index: Int,
+    val Filename: String,
+    val MimeType: String? = null,
+)
